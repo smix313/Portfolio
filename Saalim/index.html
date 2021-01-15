@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saalim's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#"><h1 class="logo">Saalim</h1></a>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">home</a></li>
+          <li><a class="nav-link" href="#skills">skills</a></li>
+          <li><a class="nav-link" href="#portfolio">portfolio</a></li>
+          <li><a class="nav-link" href="#contact">contact</a></li>
+        </ul>
+        <div id="toggle" class="toggle">
+          <i class="fas fa-bars"></i>
+          <ul class="toggle-links">
+            <li><a class="toggle-link" href="#">home</a></li>
+            <li><a class="toggle-link" href="#skills">skills</a></li>
+            <li><a class="toggle-link" href="#portfolio">portfolio</a></li>
+            <li><a class="toggle-link" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Nav End-->
+    <main>
+      <section class="hero">
+        <div class="col-2">
+          <div class="hero-text">
+            <h1>i'm saalim,</h1>
+            <h2>the software developer</h2>
+            <a href="#featured" class="btn">view my work</a>
+          </div>
+          <div class="hero-img">
+            <img src="hero.jpg" alt="hero-img" />
+          </div>
+        </div>
+      </section>
+      <!--Hero End-->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="title">skills</h2>
+          <div class="col-2">
+            <div class="skills-text">
+              <p>
+                I am a self taught developer with a web development ocupational
+                studies certification from the Goodwill University.
+              </p>
+              <div class="btn-group">
+                <a href="resume.html" class="btn">view resume</a>
+                <a href="certification.html" class="btn">view certifications</a>
+              </div>
+            </div>
+            <div class="skills-icons">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                <p class="icon">html5<br /><i class="fab fa-html5"></i></p
+              ></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                ><p class="icon">css3<br /><i class="fab fa-css3-alt"></i></p
+              ></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                ><p class="icon">javascript<br /><i class="fab fa-js"></i></p
+              ></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
+                ><p class="icon">reactjs<br /><i class="fab fa-react"></i></p
+              ></a>
+              <a href="https://github.com/smix313"
+                ><p class="icon">git<br /><i class="fab fa-github"></i></p
+              ></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line"
+                ><p class="icon">
+                  terminal<br /><i class="fas fa-terminal"></i></p
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Skills End-->
+      <section id="featured" class="featured">
+        <div class="container">
+          <h2 class="title">featured project</h2>
+          <div class="featured-project">
+            <img src="donmir.png" alt="donmir" />
+            <div class="featured-text">
+              <a href="#"><h1>DonmirApparel.com</h1></a>
+              <h3><span>languages used:</span> HTML5 - CSS3 - JAVASCRIPT</h3>
+              <p>
+                <h3><span>description:</span></h3>
+                A simple fashion product page that allows users to browse
+                through the merchant's collection. Cannot currently purchase
+                products due to products being backordered.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Featured End-->
+      <section id="portfolio" class="portfolio">
+        <div class="container-lg">
+            <h2 class="title">portfolio</h2>
+            <div class="project-grid">
+              <!--Project start-->
+              <div class="project-container">
+                <div class="project"> 
+                  <img src="donmir.png" alt="Donmir" />
+                </div>
+                <div class="project-hover">
+                  <a href="#" class="btn-round"> <i class="fas fa-search"></i></i></a>
+                  <a href="#" class="btn-round"> <i class="fas fa-code-branch"></i></a>
+                 </div>
+                <div class="project-text">
+                  <h2><a href="#" class="website">DonmirApparel.com</a></h2>
+                  <h5>html/css javascript</h5>
+                  <p>A simple e-commerce shopping page built with html & css.</p>
+                </div>
+              </div>
+              <!--Project end-->
+              <!--Project start-->
+              <div class="project-container">
+                <div class="project">
+                  <img src="versace.png" alt="Versace" />
+                </div>
+                <div class="project-hover">
+                  <a href="#" class="btn-round"> <i class="fas fa-search"></i></i></a>
+                  <a href="#" class="btn-round"> <i class="fas fa-code-branch"></i></a>
+                 </div>
+                <div class="project-text">
+                  <h2><a href="#" class="website">VersaceClone.com</a></h2>
+                  <h5>html/css</h5>
+                  <p>Versace clone built with html & css.</p>
+                 
+                </div>
+              </div>
+              <!--Project end-->
+              <!--Project start-->
+              <div class="project-container">
+                <div class="project">
+                  <img src="netflix.png" alt="Netflix" />
+                </div>
+                <div class="project-hover">
+                  <a href="#" class="btn-round"> <i class="fas fa-search"></i></i></a>
+                  <a href="#" class="btn-round"> <i class="fas fa-code-branch"></i></a>
+                 </div>
+                <div class="project-text">
+                  <h2><a href="#" class="website">NetflixClone.com</a></h2>
+                  <h5>html/css</h5>
+                  <p>Netflix clone built with html & css.</p>
+                </div>
+              </div>
+              <!--Project end-->
+            </div>
+          </div>
+      </section>
+      <!--Portfolio End-->
+    </main>
+    <footer></footer>
+    <!--Footer End-->
+  </body>
+</html>
